@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: postgres
+  password: "nova_senha"
+  host: localhost
+  port: 5433
+  pool: 5
+
+development:
+  <<: *default
+  database: jetrockets_blog_post_test_development
+
+test:
+  <<: *default
+  database: jetrockets_blog_post_test_test
+
+production:
+  <<: *default
+  database: jetrockets_blog_post_test_production

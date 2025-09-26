@@ -49,6 +49,8 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+  gem "rubocop-performance", require: false
+  gem "rubocop-rspec", require: false
 end
 
 group :development do
@@ -61,3 +63,13 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# RSpec testing framework
+gem "rspec-rails"
+gem "factory_bot_rails"
+
+# Testing helpers
+gem "shoulda-matchers"
+
+# Faker for seed data generation
+gem "faker"

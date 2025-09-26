@@ -32,3 +32,30 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore seed file variations
+/db/seeds_*.rb
+
+# Ignore schema backups
+/db/backup_schema.*
+/db/*_backup.*
+
+# Ignore editor and OS files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.orig
+*.rej
+
+# Ignore coverage reports
+/coverage/
+
+# Ignore node_modules if present
+/node_modules/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.cache

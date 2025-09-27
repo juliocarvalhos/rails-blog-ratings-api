@@ -1,4 +1,4 @@
-# JetRockets Blog Post Test
+# Blog Post API
 
 A high-performance Ruby on Rails REST API for managing blog posts with ratings and analytics. Built with PostgreSQL, optimized for handling 200k+ posts efficiently.
 
@@ -25,7 +25,7 @@ A high-performance Ruby on Rails REST API for managing blog posts with ratings a
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd jetrockets-blog-post-test
+cd <project-folder>
 
 # Install dependencies
 bundle install
